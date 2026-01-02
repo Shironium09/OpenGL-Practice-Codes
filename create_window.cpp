@@ -11,7 +11,7 @@ int main(){
     glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
     //Create the window {glfwCreateWindow(Width, Height, Window Name, Can ignore, Can ignore)}
-    GLFWwindow* window = glfwCreateWindow(800, 600, "OpenGLTesting", NULL, NULL);
+    GLFWwindow* window = glfwCreateWindow(800, 600, "OpenGLTest", NULL, NULL);
 
     //Check if the window failed to initiate / create
     if(window == NULL){
